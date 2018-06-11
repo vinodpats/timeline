@@ -1,0 +1,19 @@
+<mvc:View controllerName="com.ibmTimeline.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:co="sap.suite.ui.commons">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+					
+				<content>
+			
+					<co:Timeline id="idTimeline" showFilterBar="false" sortOldestFirst="false" width="100%" height="100%">
+						<co:content></co:content>
+					</co:Timeline>
+					
+			</content>
+				
+				
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
